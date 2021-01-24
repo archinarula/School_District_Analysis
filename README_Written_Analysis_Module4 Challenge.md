@@ -1,10 +1,12 @@
 # Written Analysis of the School District Analysis
 
 ## Overview of School district Analysis
-
+The school district summary is a high-level snapshot of the district's key metrics. In this analysis we are helping Maria (the chief Data Scientist at City school district) and other stakeholders to analyze these key performance metrics of the district schools performance.
 
 ### Purpose
-#### Deliverable: This analysis and code consists of consists of two technical analysis deliverables and a written report for the Schoold Distric Analysis:
+Maria has given a task to analyse data on student funding and student standardize test scores which is critical for strategic decisions making by school stakeholders. Our task is to aggregate the student reading and math scores and other data to showcase trends in school performance. An analysis was created based on the Student and School data provided by Maria. However now in this assignment, the original analysis has to be adjusted now as the school board has notified Maria and her supervisor that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. So we are required to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once we replaced the math and reading scores, the same school district analysis was performed to see the difference in results on Distruct summary, School type, School spending and sizes to draw out inferences on key performance school metrics.
+
+#### Deliverable: This analysis and code consists of two technical analysis deliverables and a written report for the Schoold Distric Analysis:
 - Deliverable 1: Replace ninth-grade reading and math scores
 https://github.com/archinarula/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb
 
